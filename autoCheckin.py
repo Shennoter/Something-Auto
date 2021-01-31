@@ -3,7 +3,7 @@ from selenium import webdriver
 from info import *
 
 
-def sign_in(uid, pwd):
+def checkin(uid, pwd):
     driver_url = r"浏览器驱动绝对路径"
     driver = webdriver.Edge(executable_path=driver_url)
     driver.get("https://stuhealth.jnu.edu.cn/#/login")
@@ -23,4 +23,4 @@ def sign_in(uid, pwd):
 
 
 if __name__ == "__main__":
-    sign_in(UID, PWD)
+    checkn(UID, PWD)
