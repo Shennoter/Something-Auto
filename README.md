@@ -1,4 +1,4 @@
-# Simple-JNU-Auto-Health-Report
+# JNU-Auto-Health-Report
 简单(陋)的健康打卡脚本
 ***
 * 使用了Selenium库
