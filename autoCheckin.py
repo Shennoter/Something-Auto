@@ -1,11 +1,10 @@
 import time
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
 from info import *
 
 
 def sign_in(uid, pwd):
-    driver_url = r"C:\Users\shenn\source\repos\一键打卡\msedgedriver.exe"
+    driver_url = r"浏览器驱动绝对路径"
     driver = webdriver.Edge(executable_path=driver_url)
     driver.get("https://stuhealth.jnu.edu.cn/#/login")
     # 填入学号密码
