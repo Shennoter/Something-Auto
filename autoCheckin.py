@@ -17,8 +17,8 @@ def sign_in(uid, pwd):
     driver.find_element_by_id('10000').click()
     driver.find_element_by_id('tj').click()
     # 另一种元素定位方式
-    #driver.find_element_by_css_selector('[type=checkbox]').click()
-    #driver.find_element_by_css_selector('[type=submit]').click()
+    # driver.find_element_by_css_selector('[type=checkbox]').click()
+    # driver.find_element_by_css_selector('[type=submit]').click()
     driver.close()
 
 
