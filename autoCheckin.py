@@ -1,6 +1,5 @@
 import time
 from selenium import webdriver
-from info import *
 
 
 def checkin(uid, pwd):
@@ -23,4 +22,6 @@ def checkin(uid, pwd):
 
 
 if __name__ == "__main__":
+    UID = "学号"
+    PWD = "密码"
     checkin(UID, PWD)
