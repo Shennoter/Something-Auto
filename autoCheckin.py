@@ -23,4 +23,4 @@ def checkin(uid, pwd):
 
 
 if __name__ == "__main__":
-    checkn(UID, PWD)
+    checkin(UID, PWD)
